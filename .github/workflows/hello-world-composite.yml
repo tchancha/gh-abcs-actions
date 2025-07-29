@@ -25,3 +25,4 @@ jobs:
           who-to-greet: 'Mona the Octocat from composite action'
       - run: echo random-number from composite action ${{ steps.hello-world.outputs.random-number }}
         shell: bash
+
